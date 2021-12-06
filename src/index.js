@@ -54,7 +54,7 @@ export function parseWSP(raw) {
     });
   }
 
-  return { data, summary };
+  return { data, summary, columnNames };
 }
 
 /*
